@@ -1,2 +1,2 @@
 FROM nginx
-ADD ./dist/webpackdemo.zip /usr/share/nginx/html
+COPY ./dist/dist/*  /usr/share/nginx/html/
