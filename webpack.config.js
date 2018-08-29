@@ -4,7 +4,7 @@ let WebpackZipPlugin =require('webpack-zip-plugin')
 
 new WebpackZipPlugin({
     initialFile: './dist',
-    endPath: './dist/', 
+    endPath: './', 
     zipName: 'webpackdemo.zip'
 });
 
